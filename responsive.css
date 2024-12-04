@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+header{
+    width: 100pxvw;
+    height:100vh;
+    background-image: url("Travel_South-Africa-6-scaled.webp");
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.header-content{
+    text-align:center;
+    color:black;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.line{
+    background: rgb(27, 25, 27);
+    margin: 30px auto;
+    width: 150px;
+    height: 4px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+.navbar a:hover{
+    background-color: rgb(51, 62, 68);
+}
+.navbar li{
+    float: left;
+}
+.logo{
+    font-size: 50px;
+
+
+}
+.center{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.about{
+    cursor: pointer;
+    background-color: rgb(24, 32, 32);
+}
+.contact{
+    cursor: pointer;
+    background-color:rgb(24, 32, 32);
+}
+    .trip{
+        cursor: pointer;
+        background-color:rgb(24, 32, 32);
+    }
+    .title{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .row.column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .column.img{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }

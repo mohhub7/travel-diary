@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(casablanca-2807439_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 

@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+header{
+    width: 100vw;
+    height: 100vh;                         
+    background-image: url(Giraffes-strolling-within-metres-of-the-skyscrapers-in-Nairobi-by-Paras-Chandaria-e1629716359645-1024x542.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
